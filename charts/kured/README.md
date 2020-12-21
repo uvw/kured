@@ -71,6 +71,7 @@ The following changes have been made compared to the stable chart:
 | `metrics.scrapeTimeout` | A custom scrapeTimeout for prometheus                                       | `""`                    |
 | `service.create`        | Create a Service for the metrics endpoint                                   | `false`                    |
 | `service.port`          | Port of the service to expose                                               | `8080`                     |
+| `service.portName`      | Port name of the service                                                    | `metrics`                  |
 | `service.annotations`   | Annotations to apply to the service (eg to add Prometheus annotations)      | `{}`                       |
 | `priorityClassName`     | Priority Class to be used by the pods                                       | `""`                       |
 | `tolerations`           | Tolerations to apply to the daemonset (eg to allow running on master)       | `[{"key": "node-role.kubernetes.io/master", "effect": "NoSchedule"}]`|

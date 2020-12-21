@@ -59,6 +59,7 @@ metrics:
 service:
   create: false
   port: 8080
+  portName: mertics
   annotations: {}
 
 priorityClassName: ""
